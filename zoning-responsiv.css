@@ -1,0 +1,266 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, p, a, span, li {
+    color: transparent;
+}
+/**** header*****/
+#barre-superieur {
+    background: #383234;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    align-items: center;
+}
+
+#navigation {
+    width: 100%;
+    height: auto;
+    background: indigo;
+}
+
+
+#nav {
+    background: lightgreen;
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+#logo {
+    width: 140px;
+    height: 80px;
+    display: block;
+    background: wheat;
+}
+
+header {
+    background: blue;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#conteneur {
+    display: flex;
+}
+
+#droite {
+    width:50%;
+    height: auto;
+    background: lightslategray;
+}
+
+.rang {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    height: 150px;
+    background: #ffbb56;
+    margin: 5px;
+}
+
+#gauche {
+    width: 50%;
+    height: auto;
+    background: mediumaquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: center;
+}
+
+#gauche div {
+    background: crimson;
+    margin: 15px;
+    margin-right: 5%;
+    padding: 15px;
+}
+
+#entete {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+/****section*****/
+section {
+    background: greenyellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+}
+
+#projet {
+    width: 40%;
+    margin: auto;
+    background: beige;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    width: 40%;
+    margin: auto;
+    background: yellow;
+    margin-bottom: -10px;
+    position: relative;
+}
+
+#picto {
+    padding: 0px;
+    width: 60%;
+    margin: auto;
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+}
+
+#ampoule {
+    width: 18%;
+    height: auto;
+    background: orange;
+}
+
+#projets-web {
+    width: 82%;
+    text-align: left;
+    background: purple;
+}
+
+.picto {
+    width: 150px;
+    height: 100px;
+    background: red;
+    margin-top: 20px;
+}
+
+/******footer*******/
+footer {
+    background: indianred;
+    display: flex;
+    flex-direction: column;
+}
+
+#foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+#mentions {
+    display: flex;
+    background: red;
+    justify-content: space-around;
+}
+
+#foot div {
+    background: coral;
+    width: 20%;
+    margin: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    #picto {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #nav {
+        background: rgb(87, 148, 87);
+        padding: 0px;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #picto {
+        width: auto;
+    }
+
+    #mentions {
+        display: flex;
+        flex-direction: column;
+        background: red;
+        justify-content: space-around;
+        text-align:center;
+    }
+
+    #projet {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        background: rgb(87, 148, 87);
+        padding: 0px;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #picto {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conteneur {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #gauche {
+        width: auto;
+    }
+    #droite {
+        width: auto;
+    }
+
+    #foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #foot div {
+        width: auto;
+        text-align: center;
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    #gauche {
+        height: auto;
+        background: mediumaquamarine;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
